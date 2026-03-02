@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Retiro IBCP 2026 - Manual do Retirante</title>
+    <link rel="icon" type="image/png" href="./images/logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img
+            src="./images/logo.png"
+            alt="Retiro IBCP 2026 - Reconstruindo os muros"
+          />
+          <span>Retiro 2026</span>
+        </div>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#espaco">O Espaço</a></li>
+          <li><a href="#preletores">Preletores</a></li>
+          <li><a href="#programacao">Programação</a></li>
+          <li><a href="#informacoes">Informações</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero">
+        <div class="hero-content"></div>
+      </section>
+
+      <section id="espaco" class="gallery-section">
+        <div class="container">
+          <h2>O Espaço</h2>
+          <p class="subtitle">
+            Um ambiente preparado para o seu conforto, enquanto busca mais do
+            Senhor Jesus
+          </p>
+          <div class="gallery">
+            <div class="gallery-item">
+              <img src="./images/piscina-descoberta.png" alt="Piscina" />
+            </div>
+            <div class="gallery-item">
+              <img src="./images/quartos.png" alt="Acomodação" />
+            </div>
+            <div class="gallery-item">
+              <img src="./images/quadra.jpeg" alt="Quadra" />
+            </div>
+            <div class="gallery-item">
+              <img src="./images/refeitorio.png" alt="Refeitório" />
+            </div>
+            <div class="gallery-item">
+              <img src="./images/piscina-coberta.png" alt="Piscina Coberta" />
+            </div>
+            <div class="gallery-item">
+              <img src="./images/lago.png" alt="Lago" />
+            </div>
+          </div>
+          <div class="gallery-cta">
+            <a
+              href="https://www.google.com/maps/dir/?api=1&destination=Espaço+Villa+-+Suzano,+Estr.+do+Kidani,+355+-+Ipelândia,+Suzano+-+SP,+08633-380"
+              target="_blank"
+              class="btn maps-btn"
+            >
+              Ver rota no Google Maps
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="preletores" class="speakers-section">
+        <div class="container">
+          <h2>Preletores</h2>
+          <p class="subtitle">Conheça quem trará a palavra nestes dias</p>
+          <div class="speakers-grid">
+            <div class="speaker-card">
+              <div class="speaker-image">
+                <img src="./images/pastor-luciano.png" alt="Pastor Luciano" />
+              </div>
+              <div class="speaker-info">
+                <h3>Pastor Luciano</h3>
+                <p>Sábado - Manhã e Noite</p>
+              </div>
+            </div>
+            <div class="speaker-card">
+              <div class="speaker-image">
+                <img
+                  src="./images/pastor-moises-landulfo.jpg"
+                  alt="Pastor Moisés"
+                />
+              </div>
+              <div class="speaker-info">
+                <h3>Pastor Moisés</h3>
+                <p>Domingo - Manhã</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="programacao" class="schedule-section">
+        <div class="container">
+          <h2>Cronograma</h2>
+          <div class="schedule-container">
+            <div class="day-selector">
+              <button class="day-btn active" data-day="1">Sexta-feira</button>
+              <button class="day-btn" data-day="2">Sábado</button>
+              <button class="day-btn" data-day="3">Domingo</button>
+            </div>
+
+            <div id="day-1" class="schedule-day active">
+              <div class="schedule-item">
+                <span class="time">19:00</span>
+                <span class="activity">Chegada na chácara / Acomodação</span>
+              </div>
+              <div class="schedule-item">
+                <span class="time">20:30</span>
+                <span class="activity">Jantar</span>
+              </div>
+              <div class="schedule-item">
+                <span class="time">21:45</span>
+                <span class="activity">Culto de Abertura</span>
+              </div>
+              <div class="schedule-item">
+                <span class="time">22:45</span>
+                <span class="activity">Chá da Noite</span>
+              </div>
+              <div class="schedule-item">
+                <span class="time">23:30</span>
+                <span class="activity">Vigília</span>
+              </div>
+            </div>
+
+            <div id="day-2" class="schedule-day">
+              <div class="schedule-item">
+                <span class="time">08:00</span>
+                <span class="activity">Café da Manhã</span>
+              </div>
+              <div class="schedule-item">
+                <span class="time">09:30</span>
+                <span class="activity">Culto (Preletor: Pastor Luciano)</span>
+              </div>
+              <div class="schedule-item">
+                <span class="time">12:00</span>
+                <span class="activity">Almoço</span>
+              </div>
+              <div class="schedule-item">
+                <span class="time">14:00</span>
+                <span class="activity">Gincana / Dinâmica</span>
+              </div>
+              <div class="schedule-item">
+                <span class="time">20:30</span>
+                <span class="activity"
+                  >Jantar Temático (Personagens Bíblicos)</span
+                >
+              </div>
+              <div class="schedule-item">
+                <span class="time">21:45</span>
+                <span class="activity">Culto (Preletor: Pastor Luciano)</span>
+              </div>
+              <div class="schedule-item">
+                <span class="time">22:45</span>
+                <span class="activity">Chá da Noite</span>
+              </div>
+            </div>
+
+            <div id="day-3" class="schedule-day">
+              <div class="schedule-item">
+                <span class="time">08:00</span>
+                <span class="activity">Café da Manhã</span>
+              </div>
+              <div class="schedule-item">
+                <span class="time">09:30</span>
+                <span class="activity">Culto (Pastor Moisés)</span>
+              </div>
+              <div class="schedule-item">
+                <span class="time">11:00</span>
+                <span class="activity">Batismo</span>
+              </div>
+              <div class="schedule-item">
+                <span class="time">12:00</span>
+                <span class="activity">Almoço</span>
+              </div>
+              <div class="schedule-item">
+                <span class="time">14:00</span>
+                <span class="activity">Momento de Lazer</span>
+              </div>
+              <div class="schedule-item">
+                <span class="time">17:30</span>
+                <span class="activity">Saída</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="informacoes" class="info-section">
+        <div class="container">
+          <h2>Informações Importantes</h2>
+          <div class="info-grid">
+            <div class="info-card">
+              <h3>O que levar</h3>
+              <ul>
+                <li>Biblía</li>
+                <li>Pano de chão para o banheiro</li>
+                <li>
+                  <span>Roupas de cama e banho</span>
+                  <i>(lençol, travesseiro, cobertor, toalha, etc)</i>
+                </li>
+                <li>Agasalho para a noite</li>
+                <li>
+                  <span>Objetos de higiene pessoal</span>
+                  <i
+                    >(escova de dentes, creme dental, sabonete, xampu,
+                    repelente, protetor solar, etc)</i
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="info-card">
+              <h3>Regras da Casa</h3>
+              <p>
+                Pedimos a colaboração para manter o ambiente de silêncio nas
+                áreas comuns após às 22:00. O uso de celulares é desencorajado
+                para maior proveito da experiência.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>2026 IBCP - Retiro Espiritual.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
